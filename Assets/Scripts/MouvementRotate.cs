@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouvementRotateS4C1D3 : MonoBehaviour
+public class MouvementRotate : MonoBehaviour
 {
 
     void Update()

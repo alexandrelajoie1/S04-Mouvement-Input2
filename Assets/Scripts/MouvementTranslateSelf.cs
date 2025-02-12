@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouvementTranslateSelfS4C1D2 : MonoBehaviour
+public class MouvementTranslateSelf : MonoBehaviour
 {
     [SerializeField] Vector3 direction;
     [SerializeField] float vitesse;

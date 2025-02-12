@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoursuiteS4C1D4 : MonoBehaviour
+public class Poursuite : MonoBehaviour
 {
     [SerializeReference] GameObject poissonCible;
     [SerializeField] private float vitesse;

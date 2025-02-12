@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouvementTranslateS4C1D1 : MonoBehaviour
+public class MouvementTranslateWorld : MonoBehaviour
 {
     void Update()
     {
