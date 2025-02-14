@@ -14,9 +14,9 @@ public class MouvementRigidbody : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Vector3 deplacement = _rb.position + new Vector3(1f * Time.fixedDeltaTime, 0, 0);
-        // _rb.MovePosition(deplacement);
+        // Vector3 nouvellePosition = _rb.position + new Vector3(1f * Time.fixedDeltaTime, 0f, 0f);
+        // _rb.MovePosition(nouvellePosition);
 
-        // _rb.velocity = transform.TransformDirection(Vector3.forward);
+        _rb.velocity = transform.TransformDirection(Vector3.forward);
     }
 }
