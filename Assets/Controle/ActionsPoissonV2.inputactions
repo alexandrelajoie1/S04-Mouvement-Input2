@@ -1,0 +1,68 @@
+{
+    "name": "ActionsPoissonV2",
+    "maps": [
+        {
+            "name": "Poisson",
+            "id": "0e4db88c-6d8a-4a98-b4e5-86e57e19ba5f",
+            "actions": [
+                {
+                    "name": "Tourner",
+                    "type": "Value",
+                    "id": "92c2f5f6-30db-4a5e-abda-47364b276a3b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Angle",
+                    "id": "cf19c207-ad67-4504-9560-b601301100c6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tourner",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "96bf2f37-705c-45a6-bd44-6748c889853a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tourner",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cd110d0a-6915-4868-a140-0fa0a73d1b30",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tourner",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
